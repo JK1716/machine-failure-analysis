@@ -51,29 +51,24 @@ The goal is to identify which product types (L, M, H) and operating conditions c
 
 <p align="left">
   <img src="Visuals/Product_count.png" width="300">
+   <img src="Visuals/Product_count_KPI.png" width="250">
 </p>
-- Count of Products
-  
-![Count of Products](Visuals/Product_count.png) 
 
-- Count of Machine Failure
+#### 2️⃣ Combo Chart (Clustered Column + Stacked Line) — Machine Failure Analysis by Product Type
 
-![Count of Machine Failure](Visuals/Failure_count.png) 
+<p align="left">
+  <img src="Visuals/Failure_count.png" width="300">
+   <img src="Visuals/Failure_count_KPI.png" width="250">
+</p>  
 
-- Machine Failure type
+### 3️⃣ Pie Chart — Machine Failure Types Breakdown
 
-![Machine Failure type](Visuals/Failure_breakdown.png)
+<p align="left">
+  <img src="Visuals/Failure_breakdown.png" width="300">
+</p>  
 
-| HDF | OSF | PWF | TWF | RNF |
-|--------------|--------------------|--------------------|--------------------|--------------------|
 | <img src="Visuals/HDF.png" width="300"/> | <img src="Visuals/OSF.png" width="250"/> |<img src="Visuals/PWF.png" width="250"/> |<img src="Visuals/TWF.png" width="250"/> |<img src="Visuals/RNF.png" width="250"/> |
+|--------------|--------------------|--------------------|--------------------|--------------------|
 
 
-![Machine Failure type](Visuals/HDF.png)![Machine Failure type](Visuals/OSF.png)![Machine Failure type](Visuals/PWF.png)![Machine Failure type](Visuals/TWF.png)![Machine Failure type](Visuals/RNF.png)
-
-- Average tool wear  
-- Average torque  
-- Average temperature difference
-
-### 🔹 **Visuals**
-1. **Bar Chart — Failure Count by Product Type**  
+ 
