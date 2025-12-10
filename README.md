@@ -70,5 +70,34 @@ The goal is to identify which product types (L, M, H) and operating conditions c
 | <img src="Visuals/HDF.png" width="300"/> | <img src="Visuals/OSF.png" width="250"/> |<img src="Visuals/PWF.png" width="250"/> |<img src="Visuals/TWF.png" width="250"/> |<img src="Visuals/RNF.png" width="250"/> |
 |--------------|--------------------|--------------------|--------------------|--------------------|
 
-
+### 🔻 **Cause–Effect Analysis**
  
+#### 🔥 HDF — Heat Dissipation Failure
+
+<p align="left">
+  <img src="Visuals/HDF_Failure_distribution.png" width="400">
+</p>
+
+#### ⚙️ OSF — Overstrain Failure
+
+<p align="left">
+  <img src="Visuals/OSF_load_imapct.png" width="400">
+</p>
+
+#### ⚡ PWF — Power Failure
+
+<p align="left">
+  <img src="Visuals/PWF_Power_load_effect.png" width="400">
+</p>
+
+#### 🛠️ TWF — Tool Wear Failure
+
+<p align="left">
+  <img src="Visuals/TWF_wear_level.png" width="400">
+</p>
+
+#### 🎲 RNF — Random Failure
+
+<p align="left">
+  <img src="Visuals/RNF_Failure_distribution.png" width="400">
+</p>
