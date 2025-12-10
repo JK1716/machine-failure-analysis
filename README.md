@@ -46,6 +46,12 @@ The goal is to identify which product types (L, M, H) and operating conditions c
 ## 📈 Dashboard Design (Excel)
 
 ### 🔹 **KPIs**
+
+#### 1️⃣ Clustered Bar Chart — Count of Products by Product Type
+
+<p align="left">
+  <img src="Visuals/Product_count.png" width="300">
+</p>
 - Count of Products
   
 ![Count of Products](Visuals/Product_count.png) 
@@ -56,7 +62,14 @@ The goal is to identify which product types (L, M, H) and operating conditions c
 
 - Machine Failure type
 
-![Machine Failure type](Visuals/Failure_breakdown.png)![Machine Failure type](Visuals/HDF.png)![Machine Failure type](Visuals/OSF.png)![Machine Failure type](Visuals/PWF.png)![Machine Failure type](Visuals/TWF.png)![Machine Failure type](Visuals/RNF.png)
+![Machine Failure type](Visuals/Failure_breakdown.png)
+
+| HDF | OSF | PWF | TWF | RNF |
+|--------------|--------------------|--------------------|--------------------|--------------------|
+| <img src="Visuals/HDF.png" width="300"/> | <img src="Visuals/OSF.png" width="250"/> |<img src="Visuals/PWF.png" width="250"/> |<img src="Visuals/TWF.png" width="250"/> |<img src="Visuals/RNF.png" width="250"/> |
+
+
+![Machine Failure type](Visuals/HDF.png)![Machine Failure type](Visuals/OSF.png)![Machine Failure type](Visuals/PWF.png)![Machine Failure type](Visuals/TWF.png)![Machine Failure type](Visuals/RNF.png)
 
 - Average tool wear  
 - Average torque  
