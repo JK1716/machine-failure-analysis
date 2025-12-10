@@ -101,3 +101,72 @@ The goal is to identify which product types (L, M, H) and operating conditions c
 <p align="left">
   <img src="Visuals/RNF_Failure_distribution.png" width="400">
 </p>
+
+## 🧪 Engineering Interpretation
+
+### **HDF — Heat Dissipation Failure**
+- Caused by thermal imbalance.  
+- Even small ∆T variations create hotspots.  
+- Type L’s higher frequency of cycles increases cumulative heat exposure.
+
+### **OSF — Overstrain Failure**
+- Higher mechanical load (Torque × ToolWear) leads to structural stress.  
+- Type L operations show the greatest strain → highest OSF.
+
+### **PWF — Power Failure**
+- Caused by electrical overload or unstable torque–speed combinations.  
+- Type M has the highest PWF despite similar power levels → suggests load sensitivity.
+
+### **TWF — Tool Wear Failure**
+- Tool failure occurs at 200–240 min wear threshold.  
+- Type H adds the most wear per cycle → reaches threshold faster.
+
+### **RNF — Random Failure**
+- Stochastic events that don’t correlate with metrics.  
+- Slightly higher in Type H due to elevated operational intensity.
+
+---
+
+## 🚀 Suggested Improvements & Next Steps
+
+### ✔ 1. Predictive Modeling (Excel or Python)
+- Logistic Regression to predict failure probability  
+- Random Forest for identifying key drivers  
+
+### ✔ 2. Control Chart / SPC Integration
+- Monitor torque, rpm, temperature, and tool wear  
+- Identify abnormal process behavior  
+
+### ✔ 3. Preventive Maintenance Rules
+Examples:
+- Replace tool at **180 min** instead of near 200–240 min  
+- Limit torque spikes to reduce OSF  
+- Introduce cooling cycles for Type L production  
+
+### ✔ 4. Develop a Live Excel Dashboard  
+Refreshable via Power Query.
+
+---
+
+## 🧾 Files Included
+### 📂 Data/
+- `ai4i2020_raw.csv` – Original dataset  
+- `Machine_Failure_Cleaned.csv` – Cleaned dataset  
+
+### 📂 Excel/
+- `Machine_Failure_Analysis.xlsx` – Full Excel dashboard & analysis  
+
+### 📂 Visuals/
+- KPI cards  
+- Charts for each failure mode  
+
+### 📄 README.md
+Project overview. 
+
+---
+
+## 📧 Contact
+**Kalkidan Tsegaye — Electromechanical & Data Analyst**  
+📍 Addis Ababa, Ethiopia  
+📧 kalkidantsegaye171@gmail.com  
+LinkedIn: www.linkedin.com/in/kalkidan-tsegaye  
